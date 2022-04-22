@@ -2,7 +2,7 @@ import React from "react";
 import Todo from "./components/Todo";
 import { useRef, useState, useEffect } from "react";
 
-export const url = "Backend deployment URL from Heroku"; 
+export const url = "postgres://xazbushfgpzwja:b69697de6b7f425488947ee2c0bc3b5e8d308f3768230f68f765afaa14f17f55@ec2-3-224-125-117.compute-1.amazonaws.com:5432/d34o34etgvbdm4"; 
 
 function App() {
   const [todoList, setTodoList] = useState([]);
